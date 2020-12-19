@@ -1,0 +1,330 @@
+html{
+    width: 100%;
+}
+body{
+    margin: 0 auto;
+    
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+p {
+	font-size: 16px;
+}
+
+
+.navbar-brand img{
+    width: 140px;
+    padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+    /*nav選單*/
+    .navbar{
+        padding-left:50px!important;
+        padding-right:50px!important;
+    }
+}
+
+
+.banner {
+    margin-top: 76px;
+}
+
+.banner .container-fluid {
+    padding:0!important;
+}
+.collapse_navbar-collapse{
+    margin-right:  0;
+    width: auto;
+    height: auto;
+}
+.collapse_navbar-collapse .navbar-nav{
+    flex-direction: row;
+}
+/* .collapse_navbar-collapse .nav-item{
+    padding-left: 2rem;
+} */
+.nav-link p{
+    display: flex;
+    width: 3rem;
+    padding-left: .5rem;
+    margin: 0;
+}
+.nav-link img{
+    height: 20px;
+    margin: 0 .1rem;
+}
+
+.navbar-nav{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    justify-content: space-around;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+.collapse_navbar-collapse li{
+    display: flex;
+    padding: 0rem .5rem;
+}
+.nav-item1{
+    font-family: Noto Sans TC,sans-serif;
+    font-style: calc(14px + (400vw - 2304px)/624);
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.3;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+.navbar_login_buy_search{
+    width: 165px;
+}
+.navbar_login_buy{
+    display: flex;
+    width: 140px;
+    margin: 20px 0 20px 30px;
+}
+
+.login_line{
+    background-color: black;
+    width: 2px;
+    height: 19px;
+    margin-top: 2px;
+}
+
+.navbar-search{
+    margin-top: .2rem;
+    margin-left: 1rem;
+}
+#search{
+    border-radius: 5px;
+    font-size: 13px;
+    width: 120px;
+    background: url('/img/search.png') no-repeat .2rem .3px;
+    background-size:28px ;
+    padding: .2rem .2rem .3rem 1.8rem;
+}
+
+.Kind {
+    display: flex;
+    padding: 7% 0;
+    box-sizing: border-box;
+}
+
+.Kind .card img{
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    object-position: center center
+}
+.Kind p{
+    color: rgba(0,0,0,.5);
+    padding: .5rem;
+}
+
+.Design{
+    height: 900px;
+}
+
+.Design_bg{
+    max-width: 1200px;
+}
+
+.content-text{
+    width: 300px;
+    margin: 40% 10%;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.Design_work{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+.Design .container{
+    padding: 0;
+    margin-left: 0;
+}
+
+.contact {
+    height:600px;
+	padding-top: 100px;
+    background-image: url(../img/訂閱我們背景圖.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: bottom center;
+}
+
+.contact .title {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 2rem 2rem .3rem 2rem;
+	color:#000000;
+}
+
+.contact .text {
+    padding: 0 2rem;
+    flex-wrap: wrap;
+	color:#000000;
+}
+
+.contact .form-bg{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.contact .title_line{
+    padding: 0 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contact .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+	max-width: 700px;
+	margin:0 auto;
+	padding: 20px 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #EEEEEE;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+    margin:7.5px;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #8ABCB8;
+}
+footer {
+	background-color: #c1adad;
+	padding:20px 0; 
+}
+
+footer .container{
+    padding: 0 30px;
+}
+
+footer .line{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    background-color: #FFFFFF;
+    margin-right: 5rem;
+}
+
+footer .line2{
+    height: auto;
+    width: .5px;
+    margin: 0 30px 0 0;
+    background-color: #FFFFFF;
+}
+
+footer .content{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 400px;
+    max-width: 300px;
+}
+footer .kind_name{
+    display: flex;
+    flex: 0 0 50%;
+    justify-content: flex-start;
+}
+
+footer .F1 .col-md-6{
+    flex:0 0 50%;
+}
+
+footer .row{
+    flex-wrap: wrap;
+}
+
+footer .title_line{
+    background-color: #FFFFFF;
+}
+
+footer .col-md-6{
+    flex:0 0 25%;
+}
+
+footer .footer-line{
+    display: flex;
+}
+
+footer .col-md-6-bottom{
+    padding: 0 1rem;
+    flex:0 0 50%;
+}
+
+footer .content-3{
+    padding: 3rem 0;
+}
+
+footer .content-3 h5{
+    color: #FFFFFF;
+}
+
+footer p {
+    color: #FFF;
+    line-height: 20px;
+    margin-top: 0rem;
+}
+.pic{
+	width:100%
+}
