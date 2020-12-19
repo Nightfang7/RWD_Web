@@ -112,7 +112,7 @@ p {
     border-radius: 5px;
     font-size: 13px;
     width: 120px;
-    background: url('/img/search.png') no-repeat .2rem .3px;
+    background: url('../img/search.png') no-repeat .2rem .3px;
     background-size:28px ;
     padding: .2rem .2rem .3rem 1.8rem;
 }
